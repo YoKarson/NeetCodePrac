@@ -30,6 +30,8 @@
 #-100 <= nums[i] <= 100
 #nums is sorted in non-decreasing order.
 
+from typing import List
+
 class Solution:
     def remove_duplicates(self, nums: List[int]) -> int:
         l = 1
